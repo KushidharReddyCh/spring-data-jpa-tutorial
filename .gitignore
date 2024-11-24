@@ -4,6 +4,17 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Ignore all . files (hidden files)
+.*
+
+# Exclude .gitignore from being ignored
+!.gitignore
+
+# Add other patterns as needed
+node_modules/
+*.log
+
+
 ### STS ###
 .apt_generated
 .classpath
